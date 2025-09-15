@@ -16,21 +16,17 @@ class ApiService {
             }
         });
     }
-    
     //  CreateSession
     async createSession() {
         const response = await this.api.post(`${this.endpoint.session}`);
-        console.log(response,"Create Session")
         return response.data.sessionId
     }
-
     //  getChatHistory
     async getChatHistory(sessionId) {
         if (!sessionId) return;
         const response = await this.api.get(`${this.endpoint.history}/${sessionId}`);
         return response.data.message;
     }
-
     // Clear Session
     async clearSession(sessionId) {
         await this.api.delete(`${this.endpoint.session}/${sessionId}`);
