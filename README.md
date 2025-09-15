@@ -47,7 +47,7 @@ cd frontend-app
   yarn build
 ```
 ### The app will always run at
-```http://localhost:3000
+```PORT:3000
 ```
 
 
