@@ -16,6 +16,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export default defineConfig({
+  base: "/rag-powered-chatbot-frontend/",
   plugins: [react()],
   server: {
     port: parseInt(process.env.VITE_PORT, 10) || 3000,

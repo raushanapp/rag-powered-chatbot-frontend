@@ -40,6 +40,7 @@ npm install
 ```bash
 git clone https://github.com/your-username/frontend-app.git
 cd frontend-app
+locaur :localhost:3000 only run
 ```
 
 ### local start 
