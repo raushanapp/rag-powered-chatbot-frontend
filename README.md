@@ -48,7 +48,7 @@ cd frontend-app
 ```
 ## The app will always run at:
 ```http://localhost:3000
-```
+
 
 
 
