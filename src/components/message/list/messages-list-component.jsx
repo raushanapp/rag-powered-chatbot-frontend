@@ -17,6 +17,7 @@ const MessagesListComponent = ({ messages, isLoading }) => {
         });
     };
     
+    
     return (
         <div className="message-list">
             {messages.length === 0 && (

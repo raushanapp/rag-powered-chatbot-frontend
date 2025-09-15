@@ -23,7 +23,6 @@ const MessagesInputComponent = ({ onSendMessage, disabled }) => {
         <form className="message-input">
             <div className="input-container">
                 <textarea
-                    
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     onKeyPress={handleKeyPress}
