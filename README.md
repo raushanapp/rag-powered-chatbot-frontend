@@ -46,8 +46,8 @@ cd frontend-app
 ``` yarn dev
   yarn build
 ```
-### The app will always run at
-```PORT:3000
+## PORT
+``` 3000
 ```
 
 
