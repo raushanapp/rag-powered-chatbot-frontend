@@ -1,5 +1,11 @@
-import './App.css'
+import './App.scss'
+import ChatComponent from './components/chat/chat-component'
 
-function App() {}
+function App() {
+
+  return <div className='app-container'>
+    <ChatComponent/>
+  </div>
+}
 
 export default App

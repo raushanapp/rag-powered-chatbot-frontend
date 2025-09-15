@@ -1,0 +1,59 @@
+.message-input {
+  background: white;
+  border-top: 1px solid #e1e8ed;
+  padding: 1rem 2rem;
+
+  .input-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.75rem;
+    max-width: 100%;
+
+    textarea {
+      flex: 1;
+      border: 2px solid #e1e8ed;
+      border-radius: 1.5rem;
+      padding: 0.75rem 1rem;
+      font-family: inherit;
+      font-size: 1rem;
+      resize: none;
+      min-height: 2.5rem;
+      max-height: 6rem;
+      transition: border-color 0.2s;
+
+      &:focus {
+        outline: none;
+        border-color: #3498db;
+      }
+
+      &:disabled {
+        background: #f8f9fa;
+        opacity: 0.6;
+      }
+    }
+
+    .send-button {
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 2.5rem;
+      height: 2.5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      transition: background-color 0.2s;
+
+      &:hover:not(:disabled) {
+        background: #2980b9;
+      }
+
+      &:disabled {
+        background: #bdc3c7;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
