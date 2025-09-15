@@ -1,12 +1,55 @@
-# React + Vite
+# Rag Chat Bot  Frontend App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite frontend application with support for **Sass**, **Axios**, **Socket.io client**, and **UUID-based session management**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ⚡ Powered by **Vite** for fast builds  
+- 🎨 Styling with **Sass**  
+- 🔌 Real-time communication using **Socket.io client**  
+- 🌐 API calls handled with **Axios**  
+- 🔑 UUID-based unique identifiers  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React 19**  
+- **Vite 7**  
+- **Sass** for styling  
+- **Axios** for HTTP requests  
+- **Socket.io-client** for real-time updates  
+- **UUID** for session/unique IDs  
+
+---
+
+## 📋 Prerequisites
+Before starting, make sure you have installed:
+- **Node.js** (v18 or higher recommended)  
+- **Yarn** (preferred) or **npm**  
+
+---
+
+## 🔧 Installation
+``` yarn install
+# or
+npm install
+```
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/frontend-app.git
+cd frontend-app
+```
+
+### local start 
+``` yarn dev
+  yarn build
+```
+## The app will always run at:
+```http://localhost:3000
+```
+
+
+
+
